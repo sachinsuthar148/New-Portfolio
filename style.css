@@ -1,0 +1,118 @@
+  /* CSS styles */
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: black;
+      padding: 0;
+      color: white;
+      font-family: "Freeman", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+  }
+
+  header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+  }
+
+  section {
+      padding: 20px;
+  }
+
+  h2 {
+      color: #333;
+  }
+
+  .container {
+      max-width: 800px;
+      margin: auto;
+  }
+
+  .contact-form input[type="text"],
+  .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+  }
+
+  .contact-form textarea {
+      height: 100px;
+  }
+
+  .contact-form input[type="submit"] {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+  }
+
+  .contact-form input[type="submit"]:hover {
+      background-color: #555;
+  }
+
+  .yellow {
+      color: rgb(255, 255, 255) !important;
+  }
+
+  .navbar-expand {
+      background-color: transparent;
+  }
+
+  .first_box {
+      height: 100vh;
+      background: url("https://e0.pxfuel.com/wallpapers/655/814/desktop-wallpaper-web-developer-website-thumbnail.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+  }
+
+  .sub_first_box {
+      font-size: 5rem;
+  }
+  
+
+  .sub_first_box img {
+      width: 35rem;
+  }
+
+  #first {
+      margin: 3rem;
+      min-width: 30%;
+  }
+
+  #second {
+      margin: 1rem;
+
+  }
+
+  #name{
+        color: rgb(255, 192, 31)
+  }
+
+  @media screen and (max-width: 480px) {
+      
+      .sub_first_box {
+          font-size: 2rem;
+          margin: 0;
+        }
+        .sub_first_box img {
+            width: 18rem;
+        }
+        #first{
+            margin: 0;
+        }
+        #second{
+            margin: 0;
+        }
+  }
